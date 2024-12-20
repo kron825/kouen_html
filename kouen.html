@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多摩動物公園</title>
+</head>
+<body>
+    <style>
+        main{
+            background-color: #D5B8FF;
+            padding: 0 0 0 0;
+        }
+        .photo{
+            text-align: center;
+        }
+        nav ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ol li {
+            display: inline;
+            margin-right: 12px;
+        }
+
+        nav ol li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        nav ol li a:hover {
+            text-decoration: underline;
+        }
+
+        nav ol li::after {
+            content: ">";
+            margin-left: 12px;
+        }
+
+        nav ol li:last-child::after {
+            content: "";
+        }
+
+        nav ol li[aria-current="page"] {
+            font-weight: bold;
+            color: rgb(128, 128, 128);
+        }
+        a:hover {
+            color: #fd5050;
+            transform: scale(1.2);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }  
+
+    </style>
+    <main>
+        <nav aria-label="bread">
+            <ol>
+                <li><a href="">①</a></li>
+            </ol>
+        </nav>
+        <h1>ハイキングー</h1>
+        <h2><a href="https://www.tokyo-zoo.net/zoo/tama/"target="_blank"> 多摩動物公園</h2></a>
+        <div class="photo">
+            <img src="img/IMG_9074.jpg" alt="taka" width="300px" height="400px">
+            <p>タカ</p>
+            <img src="img/IMG_9084.jpg" alt="taka"width="300px" height="400px">
+            <p>キリン</p>
+            <img src="img/IMG_9075.jpg" alt="taka"width="300px" height="400px">
+            <p>フクロウ</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.048423110998!2d139.39943587636716!3d35.65117858162331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2583ad7889f%3A0x5e4ecc1e62a0284!2z5aSa5pGp5YuV54mp5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1734671954559!5m2!1sja!2sjp" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div style="text-align: right;">
+            <a href="kouen2.html">
+                <button>次のページへ→</button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
